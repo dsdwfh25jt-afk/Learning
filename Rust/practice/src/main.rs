@@ -12,3 +12,4 @@ fn main() {
 
     println!("Text : {}",abc);
 }
+// this is overall code which is used to take user input in rust
