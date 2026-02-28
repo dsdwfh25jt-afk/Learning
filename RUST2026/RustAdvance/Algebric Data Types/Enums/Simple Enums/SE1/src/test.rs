@@ -10,9 +10,12 @@ enum IpAddr {
 // new enum new derive trait  /* IPM */
 #[derive(Debug)]    
 enum LocalHost {
-    // V4(String),
+
+    // This code illustrates that you can put any kind of data inside an enum variant: strings, numeric types, or structs, for example. You can even include another enum! Also
     
-    V6(String),
+    // V4(String),
+
+    V6(String), // we can pass here structs also as arguments 
     V4(u8,u8,u8,u8),  // we can use this also to create ip like tuple 
 }
 
