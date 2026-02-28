@@ -19,4 +19,4 @@ fn main() {
     println!("{}",user1.username); 
     // we can print full struct in ordered way from the line below 
     println!("{:#?}",user1); // we can use coz of #[derive(Debug)] this 
-} 
+}
