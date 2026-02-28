@@ -10,8 +10,10 @@ enum IpAddr {
 // new enum new derive trait  /* IPM */
 #[derive(Debug)]    
 enum LocalHost {
-    V4(String),
+    // V4(String),
+    
     V6(String),
+    V4(u8,u8,u8,u8),  // we can use this also to create ip like tuple 
 }
 
 // created struct and using enum inside that as ip kind 
@@ -32,8 +34,10 @@ fn main() {
         ip_address : String::from("::11"),
     };
 
-    // we can use that in more precise way and more effectively 
-    let new_ip_v4 = LocalHost::V4(String::from("127.0.0.1"));
+    // we can use that in more precise way and more effectively
+
+    // let new_ip_v4 = LocalHost::V4(String::from("127.0.0.1"));
+    let new_ip_v4 = LocalHost::V4(127,0,0,1);
     let new_ip_v6 = LocalHost::V6(String::from("::12")); 
 
     println!("{:?}",new_ip_v4);
