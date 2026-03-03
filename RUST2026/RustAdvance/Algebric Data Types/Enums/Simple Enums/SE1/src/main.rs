@@ -11,7 +11,7 @@ fn main() {
     println!("Hello, world!  {:?} ",coin); 
 
 
-    // matching the kind of token and printing the value 
+    // matching the kind of token and printing the value        
     match coin {
         Token::Sol(amount) => println!("{:?} ",amount),
         Token::Btc(amount) => println!("{:?} ",amount),
