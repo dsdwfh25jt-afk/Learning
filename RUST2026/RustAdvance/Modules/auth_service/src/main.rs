@@ -1,5 +1,5 @@
 use auth_service::authenticate;
-use auth_service::Credentials;
+use auth_service::auth_utilis::module::Credentials;
 fn main() {
     let user_credentials = Credentials{
         username : String::from("user12345678"),
