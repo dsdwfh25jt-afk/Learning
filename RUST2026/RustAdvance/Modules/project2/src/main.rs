@@ -1,10 +1,10 @@
-use project2::house::{*}; 
+use project2::house::*; 
 // mod house;   
 // pub mod house;
 fn main() {
     // crate::house::bedroom::this_is_bedroom();
-    house::bedroom::this_is_bedroom();
-    println!("Hello");
+    bedroom::this_is_bedroom();
+    println!("Hello ... let's F  Go !");
 }
 
 
