@@ -7,5 +7,5 @@ fn main() {
     };  
 
     authenticate(user_credentials);
-    println!("Hello, world!");
+    println!("Hello, mfs !");
 }
