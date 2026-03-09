@@ -21,4 +21,19 @@ pub fn readingElements() {
         Some(element) => println!("Element found and it's {element}"),
         None => println!("Element Not found ..."),
     }
+
+    // we can't use mutable and immutable reference in the same scope 
+    //
+    // Because writing on vec (adding new element) must need some space 
+    // when space is update the reading of immutable reference must refering 
+    // to deaalocated space.
+
+    // let mut v = vec![1, 2, 3, 4, 5];
+
+    // let first = &v[0]; immutable reference
+
+    // v.push(6); mutalbe reference
+
+    // println!("The first element is: {first}"); immutable again
+
 }
