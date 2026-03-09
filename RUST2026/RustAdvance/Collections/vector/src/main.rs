@@ -1,0 +1,13 @@
+// use crate::vector::reading::{readingElements};
+mod reading;
+use reading::*;
+fn main() {
+    reading::readingElements();
+    // vectors are impl by generics 
+    // Vec<T> is generic , T = any type of data
+    let v : Vec<i32> = Vec::new();
+
+    // vec1 macro create a vector of i32 
+    let vv = vec![1,2,3,4];
+
+}
