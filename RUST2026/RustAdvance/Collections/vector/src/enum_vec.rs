@@ -19,7 +19,6 @@ pub fn accountsVector() {
             Element::Balance(amount) => {
                 println!("Balance : {}",amount)
             }
-            _ => println!("Panic Attack !")
         }
     }
 }
