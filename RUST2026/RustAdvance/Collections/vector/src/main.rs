@@ -3,6 +3,7 @@ mod reading;
 mod updating;
 mod defining;
 mod iterating;
+mod enumVec;
 use reading::*;
 fn main() {
     updating::update();
@@ -15,5 +16,7 @@ fn main() {
 
     // vec1 macro create a vector of i32 
     let vv = vec![1,2,3,4];
+
+    enumVec::accountsVector();
 
 }
