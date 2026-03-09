@@ -1,4 +1,6 @@
 pub fn defining() {
+    // vectors are impl by generics 
+    // Vec<T> is generic , T = any type of data
     let v: Vec<i32> = Vec::new(); // for this we need to give data type 
     // let v1 = Vec::new(1.23,12.23);  this will couse error 
     let w = vec![1.2,1.5]; // this will automatic verify the data type 
