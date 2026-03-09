@@ -4,6 +4,8 @@ mod updating;
 mod defining;
 use reading::*;
 fn main() {
+    updating::update();
+    defining::defining();
     reading::readingElements();
     // vectors are impl by generics 
     // Vec<T> is generic , T = any type of data

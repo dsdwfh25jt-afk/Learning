@@ -4,7 +4,6 @@
 
 pub fn readingElements() {
 
-    
     let vector = vec![1,2,3,4,5]; 
     // we can use both ways at both places but vec[idx] and vec.get(idx) 
     // we want to understand the secure approch so /../
