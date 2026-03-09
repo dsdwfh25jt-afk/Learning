@@ -5,6 +5,7 @@ fn main() {
     // crate::house::bedroom::this_is_bedroom();
     bedroom::this_is_bedroom();
     println!("Hello ... let's F  Go !");
+    house();
 }
 
 

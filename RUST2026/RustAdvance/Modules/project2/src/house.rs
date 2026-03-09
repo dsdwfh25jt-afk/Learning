@@ -1,4 +1,4 @@
-pub mod bedroom;
+pub mod  bedroom;  
 pub mod hall;
 pub mod kitchen;
 pub fn house() {
