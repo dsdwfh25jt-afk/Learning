@@ -2,11 +2,13 @@
 mod reading;
 mod updating;
 mod defining;
+mod iterating;
 use reading::*;
 fn main() {
     updating::update();
     defining::defining();
     reading::readingElements();
+    iterating::iteratingVector();
     // vectors are impl by generics 
     // Vec<T> is generic , T = any type of data
     let v : Vec<i32> = Vec::new();
