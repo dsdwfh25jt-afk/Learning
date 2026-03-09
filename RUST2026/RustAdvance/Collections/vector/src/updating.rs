@@ -1,4 +1,4 @@
-fn update() {
+pub fn update() {
     let mut vec = vec![];
     vec.push(1);
 
@@ -10,5 +10,4 @@ fn update() {
 
     let mut v = Vec::new(); // valid 
     v.push(String::from("hello")); // valid 
-
 }
