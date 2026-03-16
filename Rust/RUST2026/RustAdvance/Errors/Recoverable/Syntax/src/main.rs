@@ -1,13 +1,14 @@
 use std::fs::File;
 use std::io::ErrorKind;
 mod unwrap;
+mod expect;
 
 fn main() {
     let greeting_f_r = File::open("hello.txt");
 
     // unwrap::unwrap_method();
+    // expect::expect_method();
 
-    
     // //  
     // let greeting = match &greeting_f_r {
     //     Ok(file) => file,
