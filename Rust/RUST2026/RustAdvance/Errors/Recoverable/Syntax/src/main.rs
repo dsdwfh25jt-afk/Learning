@@ -2,6 +2,10 @@ use std::fs::File;
 use std::io::ErrorKind;
 mod unwrap;
 mod expect;
+mod propogatingError;
+
+// we cant use the ? operator in main function unless untill 
+// main function doest return error type option / result
 
 fn main() {
     let greeting_f_r = File::open("hello.txt");
